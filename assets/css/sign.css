@@ -1,0 +1,134 @@
+/* sign */
+.sign {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: var(--pointColor);
+    border-radius: 40px;
+    padding: 70px 50px;
+    z-index: 20000;
+    display: none;
+}
+
+
+.popup_close {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+/* sign__title */
+
+.sign__title {
+    display: flex;
+}
+
+.sign__title img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--black);
+    margin-right: 14px;
+}
+
+.sign__title div {
+    margin-top: -8px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--fontN);
+    color: var(--white);
+}
+
+.sign__title div h2 {
+    font-size: 2rem;
+    font-family: var(--fontN);
+    color: var(--white);
+}
+
+.sign__title div p {
+    font-style: 1.25rem;
+    font-family: var(--fontN);
+}
+
+/* sign__form */
+
+.sign__form {
+    margin-top: 20px;
+}
+
+/* member__signin */
+
+.site__email button {
+    width: 100%;
+    height: 60px;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+    border-radius: 20px;
+}
+
+.google__email button {
+    color: var(--balck);
+    background-color: var(--white);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 1.125rem;
+    border-radius: 20px;
+}
+
+/* sign__signup */
+
+.sign__signup {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sign__signup span {
+    font-family: var(--fontN);
+    color: var(--balck400);
+    font-size: 1rem
+}
+
+.sign__signup a {
+    font-size: 1rem var(--fontN);
+    color: var(--balck);
+    text-decoration: underline;
+    text-underline-offset: unset;
+    text-underline-position: under;
+}
+
+/* sign__policy */
+.sign__policy {
+    font-family: var(--fontN);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.sign__policy a {
+    text-decoration: underline;
+    text-underline-offset: unset;
+    text-underline-position: under;
+}
+
+/* user__find */
+.user__find {
+    font-family: var(--fontN);
+    font-size: 0.9rem;
+}
+
+.user__find a {
+    text-decoration: underline;
+    text-underline-offset: unset;
+    text-underline-position: under;
+}

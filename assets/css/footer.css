@@ -1,0 +1,14 @@
+/* footer__inner */
+.footer__inner {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.footer__inner ul {
+    display: flex;
+}
+
+.footer__inner ul li {
+    margin-right: 10px;
+}
