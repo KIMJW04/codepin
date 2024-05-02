@@ -3,6 +3,7 @@
     display: flex;
     height: 100px;
     justify-content: space-between;
+    font-size: 1rem;
 }
 
 .footer__inner ul {
@@ -11,4 +12,12 @@
 
 .footer__inner ul li {
     margin-right: 10px;
+}
+
+@media (max-width:600px) {
+    .footer__inner {
+        width: 100%;
+        padding: 0 16px;
+        font-size: 0.6rem;
+    }
 }

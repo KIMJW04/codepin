@@ -46,7 +46,7 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
     .container {
         width: 100%;
         padding: 0 16px;

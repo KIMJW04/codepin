@@ -1,12 +1,9 @@
 /* main-Intro */
-
 .main-Intro .section01 {
-    margin: 0 auto;
     margin-top: 60px;
-    height: 600px;
-    width: 1024px;
+    height: 37.5rem;
     background-color: #fff;
-    border-radius: 5%;
+    border-radius: 30px;
     z-index: -100;
     position: relative;
 }
@@ -17,11 +14,11 @@
 }
 
 .section01__img01 {
-    width: 300px;
-    height: 540px;
+    width: 18.75rem;
+    height: 33.75rem;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 2rem;
+    top: 2rem;
     background: url('../img/main-img02.jpg') center / cover;
     border-radius: 25px;
     z-index: -10;
@@ -29,26 +26,32 @@
 
 .section01__img02 {
     position: absolute;
-    right: 250px;
-    top: 60px;
-    width: 270px;
-    height: 190px;
+    right: 15.625rem;
+    top: 3.75rem;
+    width: 16.875rem;
+    height: 11.875rem;
     background: url('../img/main-img03.jpg') center / cover;
 }
 
 .section01__img03 {
     position: absolute;
     z-index: 1;
-    right: 120px;
-    top: 160px;
-    width: 270px;
-    height: 190px;
+    right: 7.5rem;
+    top: 10rem;
+    width: 16.875rem;
+    height: 11.875rem;
     background: url('../img/main-img04.jpg') center / cover;
 }
 
 .section01 h3 {
     font-size: 5rem;
     line-height: 6rem;
-    font-family: var(--fontN);
+    font-family: var(--fontL);
     font-weight: 800;
+}
+
+@media (max-width:1000px) {
+    .main-Intro .section01 {
+        width: 100%;
+    }
 }
