@@ -45,12 +45,14 @@
 }
 
 .sign__title div h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-family: var(--fontN);
     color: var(--white);
+    font-weight: 900;
 }
 
 .sign__title div p {
+    margin-top: -4px;
     font-style: 1.25rem;
     font-family: var(--fontN);
 }
@@ -75,13 +77,27 @@
 }
 
 .google__email button {
-    color: var(--balck);
-    background-color: var(--white);
     text-align: center;
     width: 100%;
     height: 60px;
-    font-size: 1.125rem;
     border-radius: 20px;
+    background-color: var(--white);
+}
+
+
+.google__email button span {
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    color: var(--balck);
+}
+
+.google__email button span img {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
 }
 
 /* sign__signup */
@@ -122,12 +138,19 @@
 }
 
 /* user__find */
-.user__find {
+.user__find li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__find span {
     font-family: var(--fontN);
     font-size: 0.9rem;
 }
 
 .user__find a {
+    font-family: var(--fontN);
+    font-size: 0.9rem;
     text-decoration: underline;
     text-underline-offset: unset;
     text-underline-position: under;
