@@ -41,13 +41,13 @@
     display: flex;
     flex-wrap: wrap;
     font-family: var(--fontN);
-    color: var(--white);
+    color: var(--balck);
 }
 
 .sign__title div h2 {
     font-size: 2.2rem;
     font-family: var(--fontN);
-    color: var(--white);
+    color: var(--black);
     font-weight: 900;
 }
 
