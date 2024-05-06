@@ -1,4 +1,9 @@
-/* footer__inner */
+/* footer */
+#footer{
+    background-color: var(--mainColor);
+    padding-top: 40px;
+}
+
 .footer__inner {
     display: flex;
     height: 100px;

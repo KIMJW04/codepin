@@ -3,8 +3,9 @@
     --fontG: "GmarketSans";
     --fontL: "lato";
 
-    --mainColor: #F3F4EF;
-    --pointColor: #DEEEFA;
+    --mainColor: #FAF6EE;
+    --pointColor1: #048EC9;
+    --pointColor2: #9BD5AC;
 
 
     --white: #fff;
@@ -34,32 +35,8 @@
     -webkit-text-size-adjust: 100%;
 }
 
-@media (max-width: 900px) {
-    :root {
-        font-size: 14px;
-    }
-}
-
 @media (max-width: 800px) {
     :root {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 700px) {
-    :root {
-        font-size: 11px;
-    }
-}
-
-@media (max-width: 600px) {
-    :root {
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 500px) {
-    :root {
-        font-size: 9px;
+        font-size: 14px;
     }
 }

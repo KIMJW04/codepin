@@ -1,4 +1,8 @@
 /* header */
+#header{
+    background-color: var(--mainColor);
+}
+
 .header__inner {
     display: flex;
     align-items: center;
@@ -63,16 +67,9 @@
     justify-content: center;
 }
 
-
-
-
 @media (max-width:800px) {
     .header__inner {
         width: 100%;
         padding: 0 16px;
-    }
-
-    .header_codelink_input {
-        width: 300px;
     }
 }
