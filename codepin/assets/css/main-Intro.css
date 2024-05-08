@@ -1,0 +1,181 @@
+/* main-Intro */
+
+.section01 {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--pointColor1);
+}
+
+.section01>h3 {
+    width: 74%;
+    margin: 0 auto;
+    font-size: 7rem;
+    font-family: var(--fontL);
+    color: var(--white);
+    font-weight: 800;
+    position: relative;
+}
+
+.section01>h3::after {
+    content: 'In My Hands Codes';
+    font-family: var(--fontL);
+    color: var(--pointColor2);
+    font-size: 3rem;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+
+.section01>div {
+    margin: 0 auto;
+    width: 74%;
+    height: 460px;
+    background: url("../img/intro01.jpg") center / cover;
+    border-radius: 10px 0px 10px 10px;
+    position: relative;
+}
+
+.section01>div>a {
+    color: var(--pointColor1);
+    font-family: var(--fontL);
+    background-color: var(--pointColor2);
+    font-size: 1.8rem;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    font-weight: 800;
+    right: 0;
+    top: -40px;
+    border-radius: 0 5px 0px 5px;
+}
+
+.section01>div>a::after {
+    background-color: var(--pointColor1);
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    border-style: solid;
+    border-width: 0 0 40px 40px;
+    border-color: transparent transparent var(--pointColor2) transparent;
+}
+
+.section02 {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-color: var(--pointColor2);
+}
+
+.section02>h3 {
+    font-size: 2.8rem;
+    font-family: var(--fontL);
+    font-weight: bold;
+    top: 80px;
+    left: 140px;
+    color: var(--pointColor1);
+    position: absolute;
+}
+
+.section02>.scrollback {
+    left: 150px;
+    top: 180px;
+    width: 80%;
+    height: 37vw;
+    border-radius: 15px;
+    background-color: var(--white);
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.section02>.scrollback>.scrollbackL {
+    width: 50%;
+    height: 37vw;
+    position: relative;
+}
+
+.section02>.scrollback>.scrollbackL>h3 {
+    font-size: 2.7rem;
+    font-family: var(--fontG);
+    font-weight: bold;
+    width: 100%;
+    top: 380px;
+    left: 100px;
+    color: var(--black);
+    position: absolute;
+}
+
+.section02>.scrollback>.scrollbackL>img {
+    width: 480px;
+    height: 380px;
+    margin-left: 100px;
+    margin-top: 550px;
+}
+
+.section02>.scrollback>.scrollbackR {
+    width: 50%;
+    height: 37vw;
+    position: relative;
+}
+
+.section02>.scrollback>.scrollbackR>h3 {
+    font-size: 2.7rem;
+    font-family: var(--fontG);
+    font-weight: bold;
+    width: 100%;
+    top: 600px;
+    color: var(--black);
+    position: absolute;
+}
+
+.section02>.scrollback>.scrollbackR>img {
+    width: 480px;
+    height: 380px;
+    margin-left: 160px;
+    margin-top: -310px;
+}
+
+@media (max-width:960px) {
+    .section01>div>a {
+        display: none;
+    }
+}
+
+@media (max-width:648px) {
+    .section01>h3 {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .section01>h3::after {
+        font-size: 2.2rem;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+}
+
+@media (max-width:468px) {
+    .section01>h3 {
+        font-size: 4.2rem;
+    }
+
+    .section01>h3::after {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:396px) {
+    .section01>h3 {
+        font-size: 3.6rem;
+    }
+
+    .section01>h3::after {
+        font-size: 1.5rem;
+    }
+}

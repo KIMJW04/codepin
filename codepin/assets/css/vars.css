@@ -5,7 +5,11 @@
 
     --mainColor: #FAF6EE;
     --pointColor1: #048EC9;
-    --pointColor2: #9BD5AC;
+    --pointColor2: #B3DEBE;
+
+    --pointColor1-1: #48ABD1;
+    --pointGreen: #058A2A;
+
 
 
     --white: #fff;
@@ -15,6 +19,7 @@
     --white400: #ccc;
     --white500: #bbb;
     --white600: #aaa;
+    --white700: #d9d9d9;
 
     --black: #000;
     --black100: #111;
